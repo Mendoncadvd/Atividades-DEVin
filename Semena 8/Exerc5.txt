@@ -1,0 +1,3 @@
+Em uma API Rest de CRUD, qual o método HTTP devemos utilizar na operação de busca de um registro por Id?
+
+R: Utilizamos o método get.
