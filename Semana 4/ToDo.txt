@@ -1,0 +1,17 @@
+01. foreach
+02. map
+03. find/json/some
+04. every
+05. map
+06. filter
+07. find
+08. reduce
+09. arrow function
+10. promisse
+11. arrow function
+12. template string
+13. filter
+14. map/template string
+15. some
+16. destructuring
+17. rest operator
