@@ -1,0 +1,21 @@
+{
+   "id": "1",
+   "cliente": {
+       "id": "1",
+       "nome": "Fulano de Tal",
+       "cpf": "00000000000",
+       "endereco": "qualquer lugar"
+   },
+   "pedido": {
+       "id": "1",
+       "produto": {
+           "codigo": "1234",
+           "preco": {
+               "valor": "30",
+               "moeda": "real"
+           },
+        "grupo": "promocao do dia"
+       }
+   }
+}
+
