@@ -1,0 +1,18 @@
+<!-- Crie um arquivo XML representando um pedido em uma aplicativo de delivery de alimentos (Ex.: IFood), 
+    esse arquivo deve conter as informações do cliente, endereço de entrega, uma lista com os itens do 
+    pedido e o valor total a pagar. -->
+
+<Venda id="1">
+    <cliente id="1">
+        <nome>Fulano de Tal</nome>
+        <cpf>000-000-000-00</cpf>
+        <endereco>Qualque Lugar</endereco>
+    </cliente>
+    <pedido id="1">
+        <produto>
+            <codigo>1234</codigo>
+            <preco valor="30" moeda="real" />
+            <grupo>promocao do dia</grupo>
+        </produto>
+    </pedido>
+</Venda>
