@@ -1,0 +1,4 @@
+Ao executar a chamada de uma operação REST o código HTTP 404 é retornado. O que pode ter causado esse retorno?
+
+R: A classe de respostas 400-499 indicam um erro do cliente. O código 404 (404 not found) pode indicar que o servidor não conseguiu 
+encontrar o recurso solicitado pelo cliente.
