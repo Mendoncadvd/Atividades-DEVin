@@ -1,0 +1,27 @@
+Dado a API REST hipotética de pedidos. Escreva a URI, método HTTP e JSON de retorno para uma 
+operação que deverá retornar os restaurantes disponíveis.
+
+R: GET/restaurantes
+
+[
+    {   
+        "id": 1,
+        "nome": "Palladar",
+        "tipo": "Tradicional",
+        "local": "Estreito"
+    },
+
+    {
+        "id": 2,
+        "nome":"Bem-Bom",
+        "tipo":"Churrascaria",
+        "local":"Centro"
+    },
+
+    {
+        "id": 3,
+        "nome":"Espetinho",
+        "tipo":"hamburgueria",
+        "local":"Sao-Jose"
+    }
+]
