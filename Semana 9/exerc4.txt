@@ -1,0 +1,4 @@
+Busque os cursos presenciais que possuem número máximo de alunos maior do que 30.
+
+R:
+SELECT * FROM cursos WHERE presencial='sim' AND matriculados>30;
