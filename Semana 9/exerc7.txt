@@ -1,0 +1,5 @@
+Busque os professores nascidos na América do Sul.
+
+R:
+
+SELECT * FROM professores WHERE nacionalidade='Sul Americano'
