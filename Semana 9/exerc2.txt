@@ -1,0 +1,36 @@
+Crie 3 tabelas:
+- Uma para armazenar os dados de professores (nome, sobrenome, endereço, telefone, e-mail, data de nascimento, nacionalidade, etc.)
+- Outra para estudantes (nome, sobrenome, matrícula, e-mail, data de nascimento, nacionalidade, média geral, etc.)
+- Outra para cursos (código, nome, se é EAD ou presencial, quem é o professor, número máximo de alunos, etc.)
+
+R:
+
+CREATE TABLE professores (
+id INT,
+nome VARCHAR(255),
+sobrenome VARCHAR(255),
+endereço VARCHAR(255),
+telefone VARCHAR(100),
+email VARCHAR(255),
+nascimento DATE,
+nacionalidade VARCHAR (255)
+);
+
+CREATE TABLE estudantes (
+id INT,
+nome VARCHAR(255),
+sobrenome VARCHAR(255),
+matrícula INT,
+email VARCHAR(255),
+nascimento DATE,
+nacionalidade VARCHAR (255),
+média FLOAT
+);
+
+CREATE TABLE cursos (
+id INT,
+nome VARCHAR (255),
+presencial CHAR (3),
+professor VARCHAR(255),
+matriculados INT
+);
