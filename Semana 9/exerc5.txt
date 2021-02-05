@@ -1,0 +1,5 @@
+Atualize a informação de média geral de um aluno.
+
+R:
+
+UPDATE estudantes SET média=7.5 WHERE id=3;
