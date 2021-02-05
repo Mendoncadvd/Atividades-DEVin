@@ -1,0 +1,15 @@
+Insira pelo menos 3 registros em cada tabela (quanto mais, melhor).
+
+R:
+
+INSERT INTO cursos VALUE (1, 'Administração', 'sim', 'Rolf Hermann', 28);
+INSERT INTO cursos VALUE (2, 'Sistemas da Informação', 'não', 'João Vitor', 40);
+INSERT INTO cursos VALUE (3, 'Tecnólogo em Análise e Desenvolvimento de Sitemas', 'não', 'Ricardo Pereira', 30);
+
+INSERT INTO estudantes VALUE (1, 'David', 'Rosa Mendonça', 123, 'david@gmail.com', '1995-05-03', 'Brasileiro', 10);
+INSERT INTO estudantes VALUE (2, 'Lucas', 'Perereira Maricota', 124, 'lucas@gmail.com', '1998-07-20', 'Brasileiro', 5.75);
+INSERT INTO estudantes VALUE (3, 'Luise', 'Chopp Wacken', 125, 'chucrute@gmail.com', '1999-02-25', 'Alemão', 8.97);
+
+INSERT INTO professores VALUE (1, 'Renê', 'Hermann', 'Florianópolis', 4812859765, 'rolf@gmail.com', '1965-08-13', 'Brasileiro');
+INSERT INTO professores VALUE (2, 'Donald', 'Trump', 'New York', 4897589632, 'donald@gmail.com', '1946-05-09', 'Norte Americano');
+INSERT INTO professores VALUE (3, 'Kim', 'Jong-un', 'North Korea', 4806660666, 'kim@gmail.com', '1984-02-27', 'Norte Coreano');
