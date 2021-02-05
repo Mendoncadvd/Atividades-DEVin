@@ -1,0 +1,5 @@
+Realize a exclusão de um curso.
+
+R:
+
+DELETE FROM cursos WHERE id=5;
