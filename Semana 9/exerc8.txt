@@ -1,0 +1,5 @@
+Busque os alunos cujos nomes iniciem com a letra J.
+
+R:
+
+SELECT * FROM estudantes WHERE nome LIKE 'J%';
