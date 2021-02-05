@@ -1,0 +1,7 @@
+Crie um banco de dados chamado “escola” no seu servidor local.
+
+R: 
+
+CREATE DATABASE escola 
+DEFAULT CHARACTER SET utf8mb4 
+DEFAULT COLLATE utf8mb4_general_ci;
