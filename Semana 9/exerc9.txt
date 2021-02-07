@@ -1,0 +1,4 @@
+Busque os alunos com a média geral maior do que 7, ordenando a exibição do resultado da maior para a menor média.
+
+R:
+SELECT nome, média FROM estudantes WHERE média > 7 ORDER BY média DESC;
