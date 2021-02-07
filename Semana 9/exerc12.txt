@@ -1,0 +1,4 @@
+Crie chaves estrangeiras onde forem necessárias (dica: a coluna referente ao professor na tabela cursos).
+
+ALTER TABLE escola.cursos MODIFY COLUMN professor INT NULL;
+ALTER TABLE escola.cursos ADD CONSTRAINT cursos_FK FOREIGN KEY (professor) REFERENCES escola.professores(id);
