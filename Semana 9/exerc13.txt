@@ -1,0 +1,12 @@
+Busque por todos os cursos ministrados por professoras. (Dica: JOIN)
+
+ALTER TABLE escola.professores ADD sexo CHAR NOT NULL;
+update users(table) set name(column)='Charles' where email='csev@umich.edu'
+UPDATE professores set sexo='m' where id=1;
+UPDATE professores set sexo='m' where id=2;
+UPDATE professores set sexo='m' where id=3;
+UPDATE professores set sexo='f' where id=4;
+
+select cursos.nome from cursos inner join professores on cursos.professor = professores.id where sexo='f'
+
+
