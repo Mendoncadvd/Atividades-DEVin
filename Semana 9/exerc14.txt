@@ -1,0 +1,8 @@
+Busque por todos os alunos que estão matriculados em cursos EAD. (Dica: JOIN)
+
+R:
+
+select e.nome, sobrenome from escola.alunos_cursos ac
+inner join estudantes e on e.id=ac.id_alunos
+inner join cursos c on c.id=ac.id_curso 
+where presencial='não';
