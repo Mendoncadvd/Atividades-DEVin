@@ -1,0 +1,13 @@
+Crie uma tabela de ligação entre alunos e cursos, contendo a matrícula do aluno, o código do curso e a 
+média do aluno naquele curso.
+
+R:
+
+CREATE TABLE escola.alunos_cursos (
+	id_curso INT NOT NULL,
+	id_alunos INT NOT NULL,
+	media DOUBLE NOT NULL,
+	CONSTRAINT cursos_FK FOREIGN KEY (id_curso) REFERENCES escola.cursos(id),
+	CONSTRAINT alunos_FK FOREIGN KEY (id_alunos) REFERENCES escola.estudantes(id)
+)
+
