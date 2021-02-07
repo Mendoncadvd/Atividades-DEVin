@@ -1,0 +1,6 @@
+Crie chaves primárias para todas as tabelas existentes.
+
+R:
+ALTER TABLE escola.cursos ADD CONSTRAINT cursos_pk PRIMARY KEY (id);
+ALTER TABLE escola.estudantes ADD CONSTRAINT estudantes_pk PRIMARY KEY (id);
+ALTER TABLE escola.professores ADD CONSTRAINT professores_pk PRIMARY KEY (id);
