@@ -1,2 +1,10 @@
 .inputs {
 }
+
+.grid-interruptor-restricao {
+    display: flex;
+}
+
+.grid-interruptor-autoriza {
+    display: flex;
+}
