@@ -1,0 +1,14 @@
+Analise as afirmações a seguir e responda se são verdadeiras ou falsas: 
+(a) O comando “continue” dentro de um loop “while” faz com que o controle seja passado para o próximo 
+bloco de código após o loop. 
+
+(b) O comando return pode ser utilizado dentro de loops. 
+
+(c) O comando “break” dentro de um loop “while” faz com que o controle seja passado para a próxima 
+iteração do loop.
+
+R:
+V, 
+V (mas somente se o método for diferente de void. Mesmo assim o método precisará de um return fora do escopo 
+do loop), 
+F
