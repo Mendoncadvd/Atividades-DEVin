@@ -4,3 +4,5 @@ R: Como a operação tem a intenção de editar/alterar um registro, o método c
 O método PUT substitui todas as atuais representações do recurso de destino pela carga de dados da requisição.
 Como boa prática, não seria necessário utilizar o "/alterarPessoa", pois o método PUT já demonstra a intenção de 
 alterar algo.
+
+PUT/pessoa

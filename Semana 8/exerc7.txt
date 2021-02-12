@@ -4,3 +4,5 @@ R: Como a operação tem intenção de deletar um recurso, o correto seria utili
 zado para apenas retornar dados. Com o método DELETE é possível remover um recurso específico (informando o id, como no
 exemplo da questão). Uma outra boa prática seria não utilizar o "deletePessoa/", pois a operação DELETE já demonstra a
 intenção de deletar algum registro.
+
+DELETE/pessoa/{idPessoa}

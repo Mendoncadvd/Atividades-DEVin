@@ -1,7 +1,7 @@
 Dado a API REST hipotética de pedidos. Escreva a URI, método HTTP e JSON de retorno para uma operação 
 que deverá retornar o cardápio de um restaurante.
 
-R: GET /restaurantes/{restaurantesid}/cardapio
+R: GET /restaurantes/1/cardapio
 
 [
     {

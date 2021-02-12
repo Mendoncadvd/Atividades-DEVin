@@ -1,4 +1,4 @@
 Em uma API REST hipotética de pedidos, escreva uma URI com o método HTTP correspondente para uma operação que 
 deverá retornar os itens de um determinado pedido.
 
-R: GET /pedidos/{id}
+R: GET /pedidos/1/{id}
