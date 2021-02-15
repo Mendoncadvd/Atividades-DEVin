@@ -1,5 +1,5 @@
 import { Switch } from '@material-ui/core';
-import React, {useState} from 'react';
+import React from 'react';
 
 const interruptor = (props) => {
     const { check, evento } = props
