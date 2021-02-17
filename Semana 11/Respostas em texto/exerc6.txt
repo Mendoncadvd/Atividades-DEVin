@@ -1,0 +1,1 @@
+Quantas responsabilidades no máximo deve possuir uma classe?

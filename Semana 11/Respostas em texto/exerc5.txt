@@ -1,0 +1,2 @@
+Seguindo os ensinamentos do livro Código Limpo, cite um exemplo de quando comentários são 
+necessários ou benéficos.

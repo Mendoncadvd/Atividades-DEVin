@@ -1,0 +1,8 @@
+Refatore o método a seguir:
+
+    void imprimirDivida(String nome, double quantia) {
+        imprimirCabecalho();
+        // imprime detalhes
+        System.out.println("Nome: " + nome);
+        System.out.println("Quantia: " + quantia);
+    }

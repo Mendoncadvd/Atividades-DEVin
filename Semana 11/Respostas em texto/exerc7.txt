@@ -1,0 +1,8 @@
+Refatore o código a seguir:
+
+		boolean isFalse = false;
+		if (!isFalse) {
+		    System.out.println("Its true");
+		} else {
+			System.out.println("Its false");
+		}
