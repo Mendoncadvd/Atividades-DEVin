@@ -1,0 +1,7 @@
+seguindo os conceitos de código limpo. Qual o erro cometido ao nomear a variável a seguir?
+
+		String ddmmyyyy; // Data nascimento
+
+R: A variável acima poderia ter um nome melhor, que indique o real propósito do uso dessa variável. Do jeito que 
+está, não sabemos se vai receber apenas uma data qualquer/ não saberemos o uso da variável. Ela poderia ser rees-
+crita como dataNascimento;
