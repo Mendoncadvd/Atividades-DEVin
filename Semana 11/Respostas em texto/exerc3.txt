@@ -1,0 +1,13 @@
+O seguinte fragmento de código verifica se uma pessoa é menor de idade e caso positivo um erro é lançado. 
+Refatore aplicando as técnicas aprendidas na aula.
+
+    int i = 15; // idade
+    if (i < 18) { // Se for menor idade
+        throw new RuntimeException("Pessoa menor de idade");
+    }
+
+R: 
+    int idade = 15;
+    if (idade < 18) {
+        throw new RuntimeException("Pessoa menor de idade");
+    }
