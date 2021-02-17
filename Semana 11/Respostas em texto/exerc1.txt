@@ -1,0 +1,8 @@
+ String n = "Produto"; // Nome Produto
+    Double vlProd = 100.00d;  // Valor Produto
+    Date dtFabric; // Data fabricação
+
+R:
+String produto = "Produto";
+double valorProduto = 100.00d;
+Date dataFrabricacao;
